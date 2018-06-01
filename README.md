@@ -1,11 +1,8 @@
-# ember-quickstart
+# ember / geoportal-access-lib 
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Exemples d'utilisation de l'API des Services du Géoportail (geoportal-access-lib).
 
 ## Prerequisites
-
-You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
@@ -14,8 +11,6 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-quickstart`
 * `npm install`
 
 ## Running / Development

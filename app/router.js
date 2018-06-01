@@ -7,6 +7,13 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('alti');
+  this.route('geocode');
+  this.route('reversegeocode');
+  this.route('isocurve');
+  this.route('route');
+  this.route('autocomplete');
+  this.route('getconfig');
 });
 
 export default Router;

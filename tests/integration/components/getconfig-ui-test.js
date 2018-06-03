@@ -12,15 +12,13 @@ module('Integration | Component | getconfig-ui', function(hooks) {
 
     await render(hbs`{{getconfig-ui}}`);
 
-    assert.equal(this.element.textContent.trim(), '');
+    assert.equal(this.element.textContent.trim(), 'Clef Géoportail :');
 
     // Template block usage:
     await render(hbs`
-      {{#getconfig-ui}}
-        template block text
-      {{/getconfig-ui}}
+      {{#getconfig-ui}}{{/getconfig-ui}}
     `);
 
-    assert.equal(this.element.textContent.trim(), 'template block text');
+    assert.equal(this.element.textContent.trim(), 'Clef Géoportail :');
   });
 });

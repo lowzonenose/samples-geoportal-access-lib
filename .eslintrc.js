@@ -16,6 +16,9 @@ module.exports = {
   },
   rules: {
   },
+  globals: {
+    "Gp": true
+  },
   overrides: [
     // node files
     {

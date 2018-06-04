@@ -2,10 +2,6 @@
 
 Exemples d'utilisation de l'API des Services du Géoportail (geoportal-access-lib).
 
-> **TODO**
-- model : valeurs par defaut
-- ...
-
 ## Prerequisites
 
 * [Git](https://git-scm.com/)

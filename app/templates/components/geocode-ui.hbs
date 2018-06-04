@@ -2,6 +2,9 @@
     <p>Localisant à géocoder :
         {{input type="text" id="location" value="Saint-Mandé"}}
     </p>
+    <p>Reponse non structurée : 
+        {{input type="checkbox" id="returnfreeform" checked=false}}
+    </p>
     <p>Critères de Filtrages :</p>
     <p>
         {{input type="text" size="15" id="filterProp"}} :
@@ -12,6 +15,7 @@
             <option value="PositionOfInterest">Toponymes</option>
             <option value="StreetAddress">Adresses</option>
             <option value="CadastralParcel">Parcelles Cadastrales</option>
+            <option value="PositionOfInterest,StreetAddress">Toponymes & Adresses</option>
         </select>
     </p>
 </div>
